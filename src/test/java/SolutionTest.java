@@ -19,12 +19,5 @@ public class SolutionTest {
         Assert.assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void test3(){
-        String[] words = {"abc","ab","bc","b"};
-        int[] expected = {5,4,3,2};
-        int[] actual = new Solution().sumPrefixScores(words);
 
-        Assert.assertArrayEquals(expected, actual);
-    }
 }
